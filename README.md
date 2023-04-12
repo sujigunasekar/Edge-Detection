@@ -23,7 +23,6 @@ Display the filtered image using plot and imshow.
 
  
 ## Program:
-# Program to find the solution for the given linear equations.
 
 # Developed by: Suji.G
 # RegisterNumber: 212222230152
