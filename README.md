@@ -23,16 +23,19 @@ Display the filtered image using plot and imshow.
 
  
 ## Program:
+# Program to find the solution for the given linear equations.
+
+# Developed by: Suji.G
+# RegisterNumber: 212222230152
 
 ``` 
-# Import the packages
 import cv2
 import matplotlib.pyplot as plt
 image = cv2.imread("download.jpeg")
 gray_image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 new_image = cv2.GaussianBlur(gray_image,(3,3),0)
 ```
-# Load the image, Convert to grayscale and remove noise
+
 # SOBEL EDGE DETECTOR
 ### SOBEL X:
 ```
@@ -113,28 +116,28 @@ plt.show()
 ```
 ## Output:
 ### SOBEL EDGE DETECTOR
-SOBEL X:
+### SOBEL X:
+
 ![Screenshot from 2023-04-12 14-27-46](https://user-images.githubusercontent.com/119559822/231408016-976e8e5e-cb60-4f26-8939-666feccc4c6c.png)
 
 
-
-SOBEL Y:
-
-
+### SOBEL Y:
 
 ![Screenshot from 2023-04-12 14-29-12](https://user-images.githubusercontent.com/119559822/231408049-825120cc-12e3-485a-88da-50e035d8b9df.png)
 
-SOBEL XY: 
-![Uploading Screenshot from 2023-04-12 14-29-22.png…]()
+### SOBEL XY: 
 
+![Screenshot from 2023-04-12 14-29-22](https://user-images.githubusercontent.com/119559822/231410917-4e494464-8f23-4c01-a628-cf8201a5e601.png)
 
 
 ### LAPLACIAN EDGE DETECTOR
  
 
-
+![Screenshot from 2023-04-12 14-29-29](https://user-images.githubusercontent.com/119559822/231411011-de60456e-5a02-4079-bd42-98b77286fdc0.png)
 
 ### CANNY EDGE DETECTOR
+
+![Screenshot from 2023-04-12 14-29-36](https://user-images.githubusercontent.com/119559822/231411055-eac79eec-1fc5-4b4f-b6be-10e599880dbc.png)
 
 
 ## Result:
